@@ -80,6 +80,7 @@ public class Bmiheightweight extends AppCompatActivity {
         program_numberpicker_weight.setWrapSelectorWheel(true);
         program_numberpicker_weight.setValue(1);
 
+
         program_numberpicker_weight.setOnValueChangedListener(new NumberPicker.OnValueChangeListener() {
             @Override
             public void onValueChange(NumberPicker picker, int oldVal, int newVale) {
@@ -159,7 +160,7 @@ public class Bmiheightweight extends AppCompatActivity {
                     Intent intent = new Intent(Bmiheightweight.this, Graph.class);
                     intent.putExtra(USER_BMI, Bmi_function);
                     startActivity(intent);
-                    finishAffinity();
+
                 } else {
                     Toast.makeText(Bmiheightweight.this, "NULL VALUES!!!", Toast.LENGTH_SHORT).show();
 

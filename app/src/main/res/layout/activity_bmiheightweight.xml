@@ -69,7 +69,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginLeft="55dp"
-                android:descendantFocusability="blocksDescendants"
                 android:gravity="center" />
 
             <TextView

@@ -11,8 +11,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:layout_margin="10dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
         android:elevation="6dp"
         android:padding="5dp"
         app:cardCornerRadius="8dp">
@@ -27,27 +28,17 @@
                 android:layout_height="wrap_content"
                 android:layout_centerHorizontal="true"
                 android:gravity="center"
-                android:text=""
-                android:textSize="20sp" />
-
-            <TextView
-                android:id="@+id/content_bmi"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_below="@id/Graph_text"
-                android:layout_centerHorizontal="true"
-                android:gravity="center"
-                android:text=""
+                android:padding="5dp"
                 android:textSize="20sp" />
 
             <TextView
                 android:id="@+id/bmi_status"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_below="@id/content_bmi"
+                android:layout_below="@id/Graph_text"
                 android:layout_centerHorizontal="true"
                 android:gravity="center"
-                android:text=""
+                android:padding="5dp"
                 android:textSize="20sp" />
 
         </RelativeLayout>
@@ -60,7 +51,7 @@
         android:layout_height="350dp"
         android:layout_below="@id/content_bmi_card"
         android:layout_centerInParent="true"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="80dp" />
 
     <Button
         android:id="@+id/dashboardbutton"

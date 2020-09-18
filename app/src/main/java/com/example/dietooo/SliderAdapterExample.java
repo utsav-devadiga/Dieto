@@ -65,7 +65,7 @@ public class SliderAdapterExample extends
         viewHolder.itemView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, "This is item in position " + position , Toast.LENGTH_SHORT).show();
+
             }
         });
     }
